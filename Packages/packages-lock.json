@@ -1,5 +1,33 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.analytics": {
+      "version": "3.3.5",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.cinemachine": {
+      "version": "2.6.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.2.16",
       "depth": 0,
@@ -30,46 +58,26 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.core": {
-      "version": "7.5.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.ugui": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.render-pipelines.high-definition": {
-      "version": "7.5.2",
+    "com.unity.postprocessing": {
+      "version": "3.0.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "7.5.2",
-        "com.unity.shadergraph": "7.5.2",
-        "com.unity.visualeffectgraph": "7.5.2",
-        "com.unity.render-pipelines.high-definition-config": "7.5.2"
+        "com.unity.modules.physics": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.render-pipelines.high-definition-config": {
-      "version": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
+    "com.unity.probuilder": {
+      "version": "4.4.0",
       "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "7.5.2"
-      }
-    },
-    "com.unity.shadergraph": {
-      "version": "7.5.2",
-      "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "7.5.2"
+        "com.unity.settings-manager": "1.0.3"
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.subsystemregistration": {
-      "version": "1.0.6",
+    "com.unity.settings-manager": {
+      "version": "1.0.3",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
@@ -96,10 +104,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.17",
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -111,35 +124,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
-    "com.unity.visualeffectgraph": {
-      "version": "7.5.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.shadergraph": "7.5.2"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.xr.legacyinputhelpers": {
       "version": "2.1.7",
-      "depth": 1,
+      "depth": 0,
       "source": "registry",
       "dependencies": {
         "com.unity.modules.vr": "1.0.0",
         "com.unity.modules.xr": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.xr.management": {
-      "version": "4.0.1",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.subsystems": "1.0.0",
-        "com.unity.modules.vr": "1.0.0",
-        "com.unity.modules.xr": "1.0.0",
-        "com.unity.xr.legacyinputhelpers": "2.1.7",
-        "com.unity.subsystemregistration": "1.0.6"
       },
       "url": "https://packages.unity.com"
     },
